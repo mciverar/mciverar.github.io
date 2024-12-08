@@ -203,8 +203,10 @@ header .nav li .dropdown-menu li a {
 }
 .clients-slider .owl-item{margin:0 10px; display:inline-block;}
 .clients-slider .item img{
-	display: block;
-	/* background-color:#fafafa; */
+	
+display: block;
+	
+/* background-color:#fafafa; */
 }
 .clients-slider .item img.colored {
 	top: 0;
@@ -654,7 +656,8 @@ section.jumbobox {
   transform: scale(1);
 }
 .features img{
-margin: 10px 0 0 0;
+
+margin: 10px 0 0 0;
 }
 /* page headline
 ==================================== */
@@ -931,9 +934,12 @@ ul.portfolio-categ li a{
 	color: #62E030;
 }
 ul.portfolio-categ li.active{
-border: 1px solid #62E030;
-background-color: #62E030;
-color: #0F0F29 !important;
+
+border: 1px solid #62E030;
+
+background-color: #62E030;
+
+color: #0F0F29 !important;
 }
 ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover,ul.portfolio-categ li a:focus,ul.portfolio-categ li a:active {
 	text-decoration:none;
@@ -1657,6 +1663,7 @@ margin-top: 15px;
   }
 	.navbar-brand {
 		margin-top: 10px;
+		margin-bottom: 10px;
 		border-bottom: none;
 	}
 	.navbar-header {
