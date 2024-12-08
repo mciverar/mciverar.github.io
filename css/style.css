@@ -6,6 +6,11 @@ Author URI: http://webthemez.com/
 @import url('font-awesome.css');  
 @import url('animate.css');
 
+@font-face {
+	font-family:'Niagara';
+	src:url(fonts/Niagara Solid.ttf);
+}
+
 body {
 	font-family:'Open Sans', Arial, sans-serif;
 	font-size:14px;
@@ -22,6 +27,7 @@ a:active {
 .clear {
 	clear:both;
 }
+
 
 h1,h2, h3, h4, h5, h6 {
 	font-family:'Open Sans', Arial, sans-serif;
@@ -65,7 +71,15 @@ display:none;
 }
 /*  Header
 ==================================== */
- 
+header {
+	font-family:'Niagara';
+	font-size:14px;
+	font-weight:300;
+	line-height:1.6em;
+	color:#656565;
+	background: #FFFFFF;
+}
+
 header .navbar {
     margin-bottom: 0;
 }
@@ -138,7 +152,7 @@ header .navbar {
 }
 
 header .navbar-nav > li  {
-	/*updating here to match logo*/    
+	/*updating here to match logo@navbar-brand*/    
 	padding-bottom: 19px;
     padding-top: 19px;
 }
