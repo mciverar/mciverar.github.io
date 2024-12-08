@@ -75,6 +75,9 @@ header .navbar {
 }
 
 .navbar-brand {
+	/* setting custom height here, not sure if this is right*/
+	height: 81px;
+	/*custom end*/
     color: #222;
 	text-transform: uppercase;
     font-size: 24px;
