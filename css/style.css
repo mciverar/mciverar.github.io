@@ -94,6 +94,7 @@ color: #1891EC;
 header .navbar-collapse  ul.navbar-nav {
     float: right;
     margin-right: 0;
+
 }
 header .navbar {
 min-height: 70px;
@@ -137,8 +138,9 @@ header .navbar {
 }
 
 header .navbar-nav > li  {
-    padding-bottom: 12px;
-    padding-top: 12px;
+	/*updating here to match logo*/    
+	padding-bottom: 14px;
+    padding-top: 14px;
 }
 
 header  .navbar-nav > li > a {
