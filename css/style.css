@@ -94,7 +94,7 @@ header .navbar {
 	height: 81px;
 	/*custom end*/
     color: #222;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
     font-size: 24px;
     font-weight: 700;
     line-height: 1em;
@@ -259,17 +259,17 @@ header ul.nav li {
 }
 
 header ul.nav li a {	
-	font-size:12px;
+	/*font-size:12px;*/
 	border:none;
 	font-weight:700;
-	text-transform:uppercase;
+	/*text-transform: uppercase;*/
 }
 
 header ul.nav li ul li a {	
-	font-size:12px;
+	/*font-size:12px;*/
 	border:none;
 	font-weight:300;
-	text-transform:uppercase;
+	/*text-transform: uppercase;*/
 }
 
 
