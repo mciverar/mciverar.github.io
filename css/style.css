@@ -42,6 +42,16 @@ h1,h2, h3, h4, h5, h6 {
 	position:relative;
 }
 
+.slidecapcontainer {
+	padding:0 20px 0 20px;
+	position:absolute;
+	z-index: 2;
+	margin-top: 550px;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
 #wrapper{
 	width:100%;
 	margin:0;	
@@ -380,7 +390,7 @@ left:0px;
 right:0px;
 }
 .flex-caption {zoom: 1;
-bottom: 0;background-color: rgba(97, 223, 47, 0.74); color: #fff; margin: 0;padding: 0px 25px 0px 30px; position: absolute; left: 0;text-align: center;right: 0px;display: inline-block;}
+/*bottom: 0;*/background-color: rgba(97, 223, 47, 0.74); color: #fff; margin: 0;padding: 0px 25px 0px 25px; position: relative; height: auto; /*left: 0px*/;text-align: center;/*right: 0px*/;display: inline-block;}
 .flex-caption h3 {color: #FFFFFF; letter-spacing: 1px; margin-bottom: 15px; text-transform: capitalize;font-size: 32px;font-weight: 600;}
 .flex-caption p {margin: 12px 0 16px;font-size: 16px;}
 .skill-home{
