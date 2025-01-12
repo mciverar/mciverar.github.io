@@ -23,6 +23,17 @@ jQuery(document).ready(function($) {
 			$(this).find('p').removeClass("animated fadeInUp");
 			}
 		);
+		//this is for the itch link
+		$(".externallink").hover(
+			function () {
+			//$(this).find('.icon').addClass("animated fadeInDown");
+			$(this).find('h3').addClass("animated fadeInDown");
+			},
+			function () {
+			//$(this).find('.icon').removeClass("animated fadeInDown");
+			$(this).find('h3').removeClass("animated fadeInDown");
+			}
+		);
 		
 		  /*Clients Slider*/ 
 		  var owlClient = $("#clients-slider");

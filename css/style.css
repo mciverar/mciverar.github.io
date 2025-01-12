@@ -614,8 +614,56 @@ section.jumbobox {
 	font-weight: 700;
 }
 .box-bottom a:hover {
-	color: #eee;
+	color: #fff;
 	text-decoration: none;
+}
+
+/*This section is my own for the itch.io link on the portfolio page */
+
+.externallink {
+	/*width: 100%;*/
+	border: 2px solid #f04646;
+	display: inline-block;
+	background: #fff;
+}
+.externallink-gray  {
+	background: #f8f8f8;
+	padding: 20px 20px 30px;
+}
+.externallink-gray  h4,.box-gray  i {
+	margin-bottom: 20px;
+}
+.externallink-bottom {
+	padding: 20px 0;
+	text-align: center;
+}
+.externallink-bottom a {
+	color: #fff;
+	font-weight: 500;
+}
+.externallink-bottom a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.externallink-area{
+padding: 0 0;
+/* padding-top: 0; height: 75px;*/
+float: left;text-align: center;
+padding: 0px 20px;width: 100%;}
+
+.externallink:hover{
+	background: #f04646;
+	cursor:pointer;
+}
+.externallink:hover h3{
+	color:#eee;
+}
+
+.spacer{
+	padding: 0, 0, 0, 0;
+	width: 25%;
+	background: #fff;
 }
 
 
